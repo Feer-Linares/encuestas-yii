@@ -10,7 +10,7 @@ $this->title = 'Encuestas dinámicas';
         <div class="container">
             
             <h1 class="col-xs-12 col-sm-8 col-md-10 col-lg-12">Encuestas dinámicas<br></h1>
-            <p class="lead">¿Pretendes crear una encuesta totalmente a tu medida? <br/>Si la respuesta es sí, has llegado al lugrar ideal.</p>
+            <p class="lead">¿Pretendes crear una encuesta totalmente a tu medida? <br/>Si la respuesta es sí, has llegado al lugar ideal.</p>
             <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">INICIAR AHORA</a></p>
         </div>
     </div>

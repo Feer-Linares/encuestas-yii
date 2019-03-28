@@ -13,8 +13,18 @@ use app\models\ContactForm;
 class SiteController extends Controller
 {
     /**
-     * {@inheritdoc}
+     * {@inheritdoc
      */
+    public function actionFormulario($mensaje=null){
+        return $this->render("formulario",["mensaje" => $mensaje]);
+    }
+    public function actionRequest(){
+        $mensaje = null;
+        if (isset($_REQUEST["nombre"])) {
+            $mensaje = "Bien ". $_REQUEST["nombre"];     
+        }
+        $this->redirect(["site/formulario","mensaje" => $mensaje]);
+    }
     public $layout='//main';
     public function behaviors()
     {
